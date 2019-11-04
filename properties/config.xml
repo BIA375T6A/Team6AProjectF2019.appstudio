@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget 
+xmlns = "https://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.nsbasic.{id}"
+versionCode = "1"
+version = "{version}">
+
+<name>{title}</name>
+<description>{description}</description>
+<preference name="phonegap-version" value="{phoneGapVersion}" />
+
+<!-- Icons -->
+<icon src='{icon}' />
+
+<platform name = 'android'>
+    <icon src='icons/android/ldpi.png' platform='android' qualifier='ldpi' />
+    <icon src='icons/android/mdpi.png' platform='android' qualifier='mdpi' />
+    <icon src='icons/android/hdpi.png' platform='android' qualifier='hdpi' />
+    <icon src='icons/android/xhdpi.png' platform='android' qualifier='xhdpi' />
+    <icon src='icons/android/xxhdpi.png' platform='android' qualifier='xxhdpi' />
+</platform>
+
+<platform name = 'ios'>
+    <icon src='icons/ios/icon-40.png' platform='ios' width='40' height='40' />
+    <icon src='icons/ios/icon-40@2x.png' platform='ios' width='80' height='80' />
+    <icon src='icons/ios/icon-50.png' platform='ios' width='50' height='50' />
+    <icon src='icons/ios/icon-50@2x.png' platform='ios' width='100' height='100' />
+    <icon src='icons/ios/icon-60.png' platform='ios' width='60' height='60' />
+    <icon src='icons/ios/icon-60@2x.png' platform='ios' width='120' height='120' />
+    <icon src='icons/ios/icon-60@3x.png' platform='ios' width='180' height='180' />
+    <icon src='icons/ios/icon-72@.png' platform='ios' width='72' height='72' />
+    <icon src='icons/ios/icon-72@2x.png' platform='ios' width='144' height='144' />
+    <icon src='icons/ios/icon-72@3x.png' platform='ios' width='216' height='216' />
+    <icon src='icons/ios/icon-76.png' platform='ios' width='76' height='76' />
+    <icon src='icons/ios/icon-76@2x.png' platform='ios' width='152' height='152' />
+    <icon src='icons/ios/icon-small.png' platform='ios' width='29' height='29' />
+    <icon src='icons/ios/icon-small@2x.png' platform='ios' width='58' height='58' />
+    <icon src='icons/ios/icon.png' platform='ios' width='57' height='57' />
+    <icon src='icons/ios/icon@2x.png' platform='ios' width='114' height='114' />
+    <icon src='icons/ios/icon-1024.png' platform='ios' width='1024' height='1024' />
+</platform>
+
+<!-- Splash Screens -->
+<preference name='SplashScreenDelay' value='2000' />
+<preference name='AutoHideSplashScreen' value='true' />
+<splash src='{splashscreen}'/>
+<plugin name='cordova-plugin-splashscreen' source='npm' />
+
+<platform name='android'>
+    <splash src='splash/android/res-long-land-hdpi/splash.png' qualifier='long-land-hdpi' />
+    <splash src='splash/android/res-long-land-ldpi/splash.png' qualifier='long-land-ldpi' />
+    <splash src='splash/android/res-long-land-mdpi/splash.png' qualifier='long-land-mdpi' />
+    <splash src='splash/android/res-long-land-xhdpi/splash.png' qualifier='long-land-xhdpi' />
+    <splash src='splash/android/res-long-land-xxhdpi/splash.png' qualifier='long-land-xxhdpi' />
+    <splash src='splash/android/res-long-land-xxxhdpi/splash.png' qualifier='long-land-xxxhdpi' />
+    <splash src='splash/android/res-long-port-hdpi/splash.png' qualifier='long-port-hdpi' />
+    <splash src='splash/android/res-long-port-ldpi/splash.png' qualifier='long-port-ldpi' />
+    <splash src='splash/android/res-long-port-mdpi/splash.png' qualifier='long-port-mdpi' />
+    <splash src='splash/android/res-long-port-xhdpi/splash.png' qualifier='long-port-xhdpi' />
+    <splash src='splash/android/res-long-port-xxhdpi/splash.png' qualifier='long-port-xxhdpi' />
+    <splash src='splash/android/res-long-port-xxxhdpi/splash.png' qualifier='long-port-xxxhdpi' />
+    <splash src='splash/android/res-notlong-land-hdpi/splash.png' qualifier='notlong-land-hdpi' />
+    <splash src='splash/android/res-notlong-land-ldpi/splash.png' qualifier='notlong-land-ldpi' />
+    <splash src='splash/android/res-notlong-land-mdpi/splash.png' qualifier='notlong-land-mdpi' />
+    <splash src='splash/android/res-notlong-land-xhdpi/splash.png' qualifier='notlong-land-xhdpi' />
+    <splash src='splash/android/res-notlong-land-xxhdpi/splash.png' qualifier='notlong-land-xxhdpi' />
+    <splash src='splash/android/res-notlong-land-xxxhdpi/splash.png' qualifier='notlong-land-xxxhdpi' />
+    <splash src='splash/android/res-notlong-port-hdpi/splash.png' qualifier='notlong-port-hdpi' />
+    <splash src='splash/android/res-notlong-port-ldpi/splash.png' qualifier='notlong-port-ldpi' />
+    <splash src='splash/android/res-notlong-port-mdpi/splash.png' qualifier='notlong-port-mdpi' />
+    <splash src='splash/android/res-notlong-port-xhdpi/splash.png' qualifier='notlong-port-xhdpi' />
+    <splash src='splash/android/res-notlong-port-xxhdpi/splash.png' qualifier='notlong-port-xxhdpi' />
+    <splash src='splash/android/res-notlong-port-xxxhdpi/splash.png' qualifier='notlong-port-xxxhdpi' />
+</platform>
+
+<platform name = 'ios'>
+  <splash src='splash/ios/Default.png' width='320' height='480' />
+  <splash src='splash/ios/Default@2x.png' width='640' height='960' />
+  <splash src='splash/ios/Default-568h@2x.png' width='640' height='1136' />
+  <splash src='splash/ios/Default-667h@2x.png' width='750' height='1334' />
+  <splash src='splash/ios/Default-Portrait.png' width='768' height='1024' />
+  <splash src='splash/ios/Default-Landscape.png' width='1024' height='768' />
+  <splash src='splash/ios/Default-Portrait@2x.png' width='1536' height='2048' />
+  <splash src='splash/ios/Default-Landscape@2x.png' width='2048' height='1536' />
+  <splash src='splash/ios/Default-Portrait-736h@3x.png' width='1242' height='2208' />
+  <splash src='splash/ios/Default-Landscape-736h@3x.png' width='2208' height='1242' />
+</platform>
+
+<preference name="permissions" value="none"/>
+<!-- sample preference specifications -->
+<!-- <preference name="autorotate" value="false" readonly="true"/> -->
+<!-- <preference name="orientation" value="default" /> -->
+<!-- <preference name="fullscreen" value="true" /> -->
+
+<!-- Platforms: Customize as needed. -->
+<gap:platforms>
+   <gap:platform name="android" />
+   <gap:platform name="ios" />
+   <gap:platform name="winphone" />
+</gap:platforms>
+
+<plugin name="cordova-plugin-statusbar" source="npm" />
+  <preference name="StatusBarOverlaysWebView" value="{phoneGapStatusBarOverlay}" />
+  <preference name="StatusBarBackgroundColor" value="{phoneGapStatusBarColor}" />
+  <preference name="StatusBarStyle" value="{phoneGapStatusBarStyle}" />
+
+<plugin name="cordova-plugin-whitelist" source="npm" />
+  <allow-navigation href="*" />
+  <access origin="*" />
+  <allow-intent href="*" />
+</widget>
