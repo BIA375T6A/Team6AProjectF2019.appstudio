@@ -37,6 +37,14 @@
             "RyanL", 
             "RyanL.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "addTask", 
+            "addTask.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -51,7 +59,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "Form1", 
+      "firstform": "RyanO", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
