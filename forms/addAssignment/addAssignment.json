@@ -14,72 +14,72 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "AddTask", 
+        "addAssignment", 
         "Elements", 
-        "lblTitle2.json"
+        "assignmentName.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "AddTask", 
+        "addAssignment", 
         "Elements", 
-        "inptTask.json"
+        "dueDate.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "AddTask", 
+        "addAssignment", 
         "Elements", 
-        "inptDueDate.json"
+        "timeDue.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "AddTask", 
+        "addAssignment", 
         "Elements", 
-        "inptTime.json"
+        "assignmentLength.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "AddTask", 
+        "addAssignment", 
         "Elements", 
-        "inptTaskLength.json"
+        "pointValue.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "AddTask", 
+        "addAssignment", 
         "Elements", 
-        "drpImpLeve.json"
+        "whichClass.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "AddTask", 
+        "addAssignment", 
         "Elements", 
-        "btnAddTask.json"
+        "Label1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "AddTask", 
+        "addAssignment", 
         "Elements", 
-        "Button3.json"
+        "assignmentSubmit.json"
       ]
     }
   ], 
@@ -89,7 +89,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "AddTask", 
+  "id": "addAssignment", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 

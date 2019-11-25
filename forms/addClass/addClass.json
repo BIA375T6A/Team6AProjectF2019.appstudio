@@ -14,72 +14,63 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "AddTask", 
+        "addClass", 
         "Elements", 
-        "lblTitle2.json"
+        "classStartTime.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "AddTask", 
+        "addClass", 
         "Elements", 
-        "inptTask.json"
+        "classEndTime.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "AddTask", 
+        "addClass", 
         "Elements", 
-        "inptDueDate.json"
+        "meetingDays.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "AddTask", 
+        "addClass", 
         "Elements", 
-        "inptTime.json"
+        "pointsAvailable.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "AddTask", 
+        "addClass", 
         "Elements", 
-        "inptTaskLength.json"
+        "classSubmit.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "AddTask", 
+        "addClass", 
         "Elements", 
-        "drpImpLeve.json"
+        "className.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "AddTask", 
+        "addClass", 
         "Elements", 
-        "btnAddTask.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "AddTask", 
-        "Elements", 
-        "Button3.json"
+        "Button4.json"
       ]
     }
   ], 
@@ -89,7 +80,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "AddTask", 
+  "id": "addClass", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
