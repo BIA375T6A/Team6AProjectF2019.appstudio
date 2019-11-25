@@ -34,8 +34,24 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "RyanL", 
-            "RyanL.json"
+            "Hamburger", 
+            "Hamburger.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "addEvent", 
+            "addEvent.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "AddTask", 
+            "AddTask.json"
           ]
         }
       ], 
@@ -51,7 +67,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "Form1", 
+      "firstform": "addEvent", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
@@ -87,7 +103,7 @@
       "useStrict": "", 
       "version": "1.0.0", 
       "viewportFit": "cover", 
-      "voltAppId": "", 
+      "voltAppId": "ZKCwAW", 
       "voltDomain": ""
     }
   ], 
