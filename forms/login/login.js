@@ -4,7 +4,7 @@ btnLogin.onclick=function(){
     req1 = Ajax("https://radlab.creighton.edu/appStudio/authLDAP.php", "POST", "j_username=" + inpUsername.value + "&j_password=" + inpPass.value)
     if (req1.status == 200) {  //AJAX call worked.
         if(req1.responseText == 1){
-        ChangeForm(Daniel)
+        ChangeForm(userRegistration)
       }else{
         lblResponse.value = `Your username or password is wrong, please try again.`
         }

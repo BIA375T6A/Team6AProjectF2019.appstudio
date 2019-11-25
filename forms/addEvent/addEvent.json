@@ -14,63 +14,81 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "userRegistration", 
+        "addEvent", 
         "Elements", 
-        "inptUsername.json"
+        "lblTitle.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "userRegistration", 
+        "addEvent", 
         "Elements", 
-        "inptPass.json"
+        "inptEvent.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "userRegistration", 
+        "addEvent", 
         "Elements", 
-        "inptEmail.json"
+        "inptLocation.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "userRegistration", 
+        "addEvent", 
         "Elements", 
-        "BtnSubmit.json"
+        "inptLength.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "userRegistration", 
+        "addEvent", 
         "Elements", 
-        "inptFirst.json"
+        "inptDate.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "userRegistration", 
+        "addEvent", 
         "Elements", 
-        "inptLast.json"
+        "btnAddEvent.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "userRegistration", 
+        "addEvent", 
         "Elements", 
-        "Button1.json"
+        "inptStartTime.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addEvent", 
+        "Elements", 
+        "drpImportance.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addEvent", 
+        "Elements", 
+        "Button2.json"
       ]
     }
   ], 
@@ -80,7 +98,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "userRegistration", 
+  "id": "addEvent", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 

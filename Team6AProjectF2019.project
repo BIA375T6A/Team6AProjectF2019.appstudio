@@ -29,6 +29,22 @@
             "userRegistration", 
             "userRegistration.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "AddTask", 
+            "AddTask.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "addEvent", 
+            "addEvent.json"
+          ]
         }
       ], 
       "configxml": null, 
