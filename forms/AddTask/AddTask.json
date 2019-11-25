@@ -14,63 +14,63 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "userRegistration", 
+        "AddTask", 
         "Elements", 
-        "inptUsername.json"
+        "lblTitle2.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "userRegistration", 
+        "AddTask", 
         "Elements", 
-        "inptPass.json"
+        "inptTask.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "userRegistration", 
+        "AddTask", 
         "Elements", 
-        "inptEmail.json"
+        "inptDueDate.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "userRegistration", 
+        "AddTask", 
         "Elements", 
-        "BtnSubmit.json"
+        "inptTime.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "userRegistration", 
+        "AddTask", 
         "Elements", 
-        "inptFirst.json"
+        "inptTaskLength.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "userRegistration", 
+        "AddTask", 
         "Elements", 
-        "inptLast.json"
+        "drpImpLeve.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "userRegistration", 
+        "AddTask", 
         "Elements", 
-        "Button1.json"
+        "btnAddTask.json"
       ]
     }
   ], 
@@ -80,7 +80,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "userRegistration", 
+  "id": "AddTask", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 

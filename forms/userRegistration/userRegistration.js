@@ -6,7 +6,7 @@ BtnSubmit.onclick=function(){
   var firstname = inptFirst.value
   var lastname = inptLast.value
   
-  var query1 = "INSERT INTO user (net_id,first_name,last_name,email,password) VALUES ('"+netid+"', '"+firstname+"', '"+lastname+"','"+ email+"'," +password+")"
+  var query1 = "INSERT INTO user (net_id,first_name,last_name,email,password) VALUES ('"+netid+"', '"+firstname+"', '"+lastname+"','"+email+"','"+password+"')"
   
   req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=zon68891&pass=Ryan#19976633&database=375groupa6&query=" + query1)
   
@@ -22,4 +22,8 @@ BtnSubmit.onclick=function(){
     }  
 
   
+}
+
+Button1.onclick=function(){
+  ChangeForm(addEvent)
 }
