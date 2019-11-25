@@ -30,3 +30,7 @@ if (req2.status == 200) { //transit worked.
 
   
 
+
+Button3.onclick=function(){
+   ChangeForm(addClass)
+}

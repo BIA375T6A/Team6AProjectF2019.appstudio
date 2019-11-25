@@ -45,6 +45,22 @@
             "addEvent", 
             "addEvent.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "addAssignment", 
+            "addAssignment.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "addClass", 
+            "addClass.json"
+          ]
         }
       ], 
       "configxml": null, 
