@@ -9,14 +9,60 @@
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
-  "children": [], 
+  "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "login", 
+        "Elements", 
+        "imgLogo.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "login", 
+        "Elements", 
+        "inpUsername.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "login", 
+        "Elements", 
+        "inpPass.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "login", 
+        "Elements", 
+        "btnLogin.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "login", 
+        "Elements", 
+        "lblResponse.json"
+      ]
+    }
+  ], 
   "class": "", 
   "designHeight": 0, 
   "designWidth": 0, 
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "Daniel", 
+  "id": "login", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 

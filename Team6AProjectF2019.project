@@ -18,24 +18,16 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "RyanO", 
-            "RyanO.json"
+            "login", 
+            "login.json"
           ]
         }, 
         {
           "!type": "External", 
           "file": [
             "forms", 
-            "Daniel", 
-            "Daniel.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "RyanL", 
-            "RyanL.json"
+            "userRegistration", 
+            "userRegistration.json"
           ]
         }
       ], 
@@ -51,7 +43,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "Form1", 
+      "firstform": "userRegistration", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
