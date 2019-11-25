@@ -14,27 +14,54 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "addTask", 
+        "userRegistration", 
         "Elements", 
-        "Input1.json"
+        "inptUsername.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "addTask", 
+        "userRegistration", 
         "Elements", 
-        "Input2.json"
+        "inptPass.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "addTask", 
+        "userRegistration", 
         "Elements", 
-        "Dropdown1.json"
+        "inptEmail.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "userRegistration", 
+        "Elements", 
+        "BtnSubmit.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "userRegistration", 
+        "Elements", 
+        "inptFirst.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "userRegistration", 
+        "Elements", 
+        "inptLast.json"
       ]
     }
   ], 
@@ -44,7 +71,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "addTask", 
+  "id": "userRegistration", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 

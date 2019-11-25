@@ -1,4 +1,3 @@
-
 btnLogin.onclick=function(){
       // little program on radlab server: authLDAP.php that authenicates 
     // the CU login you send and responds with a 1 (passed) or a 0 (failed)
@@ -13,3 +12,5 @@ btnLogin.onclick=function(){
         lblResponse.value = `Error: if you are off-campus you must be using CU VPN. The error code returned was: ${req1.status}. Please try again.`
     }
 }
+
+
