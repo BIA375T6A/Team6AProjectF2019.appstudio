@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "#4b69ee", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -61,25 +61,34 @@
         "forms", 
         "addAssignment", 
         "Elements", 
-        "whichClass.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "addAssignment", 
-        "Elements", 
-        "Label1.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "addAssignment", 
-        "Elements", 
         "assignmentSubmit.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addAssignment", 
+        "Elements", 
+        "classAssi.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addAssignment", 
+        "Elements", 
+        "Hamburger5.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addAssignment", 
+        "Elements", 
+        "Label3.json"
       ]
     }
   ], 
@@ -97,7 +106,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "addAssignment.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

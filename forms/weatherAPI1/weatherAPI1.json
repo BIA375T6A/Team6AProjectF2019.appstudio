@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "#4b69ee", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -14,45 +14,36 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "login", 
+        "weatherAPI1", 
         "Elements", 
-        "inpUsername.json"
+        "Textarea11.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "login", 
+        "weatherAPI1", 
         "Elements", 
-        "inpPass.json"
+        "Label5.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "login", 
+        "weatherAPI1", 
         "Elements", 
-        "btnLogin.json"
+        "Button1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "login", 
+        "weatherAPI1", 
         "Elements", 
-        "lblResponse.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "login", 
-        "Elements", 
-        "Image1.json"
+        "Hamburger7.json"
       ]
     }
   ], 
@@ -62,7 +53,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "login", 
+  "id": "weatherAPI1", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -70,7 +61,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "weatherAPI1.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

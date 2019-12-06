@@ -1,3 +1,14 @@
+userRegistration.onshow=function(){
+    Hamburger1.clear()
+  Hamburger1.addItem("Add Events")
+  Hamburger1.addItem("Add Tasks")
+  Hamburger1.addItem("Add Class")
+  Hamburger1.addItem("Add Assignment")
+  Hamburger1.addItem("Login")
+  Hamburger1.addItem("create an Account")
+Hamburger1.addItem("Current Weather")
+Hamburger1.addItem("Home")
+}
 
 BtnSubmit.onclick=function(){
   var netid = inptUsername.value
@@ -24,6 +35,37 @@ BtnSubmit.onclick=function(){
   
 }
 
-Button1.onclick=function(){
-  ChangeForm(addEvent)
+
+Hamburger1.onclick=function(s){
+    if (typeof(s) == "object"){ 
+   return
+   }
+   switch(s) { 
+case "Add Events": 
+  ChangeForm(addEvent)
+  break;
+case "Add Tasks":
+  ChangeForm(AddTask)
+  break;
+case "Add Class": 
+  ChangeForm(addClass)
+  break;
+case "Add Assignment": 
+  ChangeForm(addAssignment)
+  break;
+case "Login":
+  ChangeForm(login)
+  break;
+case "Current Weather":
+  ChangeForm(weatherAPI1)
+  break;
+case "create an Account":
+  ChangeForm(userRegistration)
+  break;
+case "Home":
+  ChangeForm(scheduleGenerator)
+  break;
 }
+}
+
+

@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "#4b69ee", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -26,15 +26,6 @@
         "addClass", 
         "Elements", 
         "classEndTime.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "addClass", 
-        "Elements", 
-        "meetingDays.json"
       ]
     }, 
     {
@@ -70,7 +61,25 @@
         "forms", 
         "addClass", 
         "Elements", 
-        "Button4.json"
+        "classMeet.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addClass", 
+        "Elements", 
+        "Hamburger6.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addClass", 
+        "Elements", 
+        "Label4.json"
       ]
     }
   ], 
@@ -88,7 +97,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "addClass.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
