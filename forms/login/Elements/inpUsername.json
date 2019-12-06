@@ -5,7 +5,7 @@
   "autocapitalize": "", 
   "autocomplete": "", 
   "autocorrect": "", 
-  "backgroundColor": "", 
+  "backgroundColor": "#fefefe", 
   "badge": "", 
   "badgeAppearance": " badge-info", 
   "bottom": "auto", 

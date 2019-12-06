@@ -1,6 +1,6 @@
 {
   "!type": "Label_bs4", 
-  "appearance": "primary", 
+  "appearance": "white", 
   "backgroundColor": "", 
   "borderRadius": "0", 
   "bottom": "auto", 
@@ -17,9 +17,9 @@
   "fontWeight": "", 
   "height": "auto", 
   "hidden": "", 
-  "id": "Label1", 
+  "id": "Label3", 
   "labelStyle": "text", 
-  "left": 15, 
+  "left": 77, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 321, 
-  "value": "What class is this for?", 
-  "width": 245
+  "top": 23, 
+  "value": "Add Assignment", 
+  "width": "auto"
 }

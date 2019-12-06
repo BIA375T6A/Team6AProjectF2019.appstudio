@@ -34,6 +34,14 @@
           "!type": "External", 
           "file": [
             "forms", 
+            "weatherAPI1", 
+            "weatherAPI1.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
             "AddTask", 
             "AddTask.json"
           ]
@@ -61,6 +69,14 @@
             "addClass", 
             "addClass.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "scheduleGenerator", 
+            "scheduleGenerator.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -75,7 +91,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "userRegistration", 
+      "firstform": "login", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
@@ -111,7 +127,7 @@
       "useStrict": "", 
       "version": "1.0.0", 
       "viewportFit": "cover", 
-      "voltAppId": "", 
+      "voltAppId": "Y1C9Z6", 
       "voltDomain": ""
     }
   ], 

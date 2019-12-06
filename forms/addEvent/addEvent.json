@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "#4b69ee", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -88,7 +88,7 @@
         "forms", 
         "addEvent", 
         "Elements", 
-        "Button2.json"
+        "Hamburger4.json"
       ]
     }
   ], 
@@ -106,7 +106,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "addEvent.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

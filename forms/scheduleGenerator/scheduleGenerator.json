@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "#4b69ee", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -14,45 +14,45 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "login", 
+        "scheduleGenerator", 
         "Elements", 
-        "inpUsername.json"
+        "dateTest.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "login", 
+        "scheduleGenerator", 
         "Elements", 
-        "inpPass.json"
+        "dailySch.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "login", 
+        "scheduleGenerator", 
         "Elements", 
-        "btnLogin.json"
+        "schCreate.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "login", 
+        "scheduleGenerator", 
         "Elements", 
-        "lblResponse.json"
+        "Hamburger8.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "login", 
+        "scheduleGenerator", 
         "Elements", 
-        "Image1.json"
+        "Label6.json"
       ]
     }
   ], 
@@ -62,7 +62,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "login", 
+  "id": "scheduleGenerator", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -70,7 +70,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "scheduleGenerator.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

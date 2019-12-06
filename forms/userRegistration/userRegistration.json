@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "#4b69ee", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -70,7 +70,16 @@
         "forms", 
         "userRegistration", 
         "Elements", 
-        "Button1.json"
+        "Hamburger1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "userRegistration", 
+        "Elements", 
+        "Label2.json"
       ]
     }
   ], 
@@ -88,7 +97,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "userRegistration.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
