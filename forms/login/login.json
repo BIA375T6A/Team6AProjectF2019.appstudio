@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "#4b69ee", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -52,7 +52,7 @@
         "forms", 
         "login", 
         "Elements", 
-        "Image1.json"
+        "Label7.json"
       ]
     }
   ], 
